@@ -5,12 +5,13 @@ $ python -m venv venv
 1.首先激活虚拟环境，需使用以下命令：
 
 $ source venv/bin/activate
-terminal会显示为
-(venv) $ _
+
+terminal会显示为(venv) $ _
 
 如果你使用的是Microsoft Windows命令提示符窗口，则激活命令稍有不同：
 
 $ venv\Scripts\activate
+
 (venv) $ _
 
 然后根据requirements.txt新建虚拟环境
