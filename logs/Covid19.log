@@ -1,0 +1,41 @@
+2020-07-11 00:04:34,267 INFO: Covid19 detector startup [in /home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/app/__init__.py:37]
+2020-07-11 00:05:04,962 INFO: Covid19 detector startup [in /home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/app/__init__.py:37]
+2020-07-11 00:05:24,125 ERROR: Exception on / [GET] [in /home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/flask/app.py:1892]
+Traceback (most recent call last):
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/app/routes.py", line 45, in index
+    return render_template('index.html')
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/venv/lib/python3.7/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2020-07-11 00:06:09,884 INFO: Covid19 detector startup [in /home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/app/__init__.py:37]
+2020-07-11 00:10:50,037 INFO: Covid19 detector startup [in /home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/app/__init__.py:37]
+2020-07-11 00:17:30,955 INFO: Covid19 detector startup [in /home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/app/__init__.py:37]
+2020-07-11 00:32:54,864 INFO: Covid19 detector startup [in /home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/app/__init__.py:37]
+2020-07-11 00:34:11,616 INFO: Covid19 detector startup [in /home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/app/__init__.py:37]
+2020-07-11 00:35:19,384 INFO: Covid19 detector startup [in /home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/app/__init__.py:37]
+2020-07-11 01:57:51,227 INFO: Covid19 detector startup [in /home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/app/__init__.py:37]
+2020-07-11 01:59:27,815 INFO: Covid19 detector startup [in /home/zuhuima/Github/AI_Dreams_COVID19_tool/CNN_APP/app/__init__.py:37]
