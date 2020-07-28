@@ -20,6 +20,7 @@ $ pip install -r requirements.txt
 
 
 2.所有包安装完毕后运行flask
+
 $ flask run
 
 3.配置文件存放在config.py内。
