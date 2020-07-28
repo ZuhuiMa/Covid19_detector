@@ -23,6 +23,8 @@ $ pip install -r requirements.txt
 
 $ flask run
 
+在浏览器内输入localhost:5000即可打开网页
+
 3.配置文件存放在config.py内。
 
 4.flask环境变量存放在.flaskenv中。
