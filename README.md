@@ -34,11 +34,16 @@ $ flask run
 
 有两个我设置的测试账号:
 username: test
+
 email: test@example.com
+
 password: 123
 
+
 username: test1
+
 email: test1@example.com
+
 password: 123
 
 
